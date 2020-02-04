@@ -3,3 +3,5 @@ __pycache__
 data
 runs
 auth.json
+*.png
+*.gif
