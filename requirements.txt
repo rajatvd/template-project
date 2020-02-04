@@ -1,0 +1,5 @@
+torchvision
+sacred
+pytorch-utils
+incense
+pyrsistent

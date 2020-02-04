@@ -1,0 +1,20 @@
+{
+  "dataset": {
+    "batch_size": 32,
+    "device": "cpu",
+    "num_workers": 0,
+    "val_split": 0.05
+  },
+  "epochs": 100,
+  "lr": 0.001,
+  "model": {
+    "activation": "relu",
+    "device": "cpu",
+    "input_size": 28,
+    "channels":[1],
+    "denses":[784, 300, 300, 10]
+  },
+  "opt": "adam",
+  "save_every": 1,
+  "weight_decay": 0
+}
