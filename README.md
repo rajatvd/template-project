@@ -4,7 +4,7 @@
 
 * `modules.py`: Contains the pytorch modules used to build the model to be trained.
 * `mnist_dataset.py` A pytorch dataset to handle MNIST images and load them directly on GPU or CPU.
-* `data_ingredient.py`: Sacred ingredient which sets up data loaders.
+* `data_ingredient.py`: [Sacred](http://sacred.readthedocs.io) ingredient which sets up data loaders.
 * `model_ingredient.py`: Sacred ingredient which instantiates the model.
 
 ### Training
@@ -44,4 +44,4 @@ The authentication spec should have the following structure:
 
 # Analyzing the trained model
 
-The analysis is done by loading saved sacred data and model checkpoints into a jupyter notebook `analysis.ipynb` using the helper package `incense`.
+The analysis is done by loading saved sacred data and model checkpoints into a jupyter notebook `analysis.ipynb` using the helper package [`incense`](https://github.com/JarnoRFB/incense).
