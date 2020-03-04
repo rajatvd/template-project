@@ -45,3 +45,8 @@ The authentication spec should have the following structure:
 # Analyzing the trained model
 
 The analysis is done by loading saved sacred data and model checkpoints into a jupyter notebook `analysis.ipynb` using the helper package [`incense`](https://github.com/JarnoRFB/incense).
+
+### TODO
+
+- [ ] Use [ignite](https://pytorch.org/ignite/) to make training code more concise and modular
+- [ ] Add script to setup MongoDB
